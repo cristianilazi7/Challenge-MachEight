@@ -29,7 +29,7 @@
                 } 
         }
       }
-      console.log();
+
       return pairs;
     
   }
@@ -59,6 +59,6 @@
   }
 
   console.log('iterating twice over the numbers list');
-  console.log(sumNombuerInArray([1,9,5,0,20,-4,12,16,7],12));
+  console.log(sumNombuerInArray([1,9,5,0,20,-4,12,16,7],0));
   console.log('in O(1) time');
-  console.log(app([1,9,5,0,20,-4,12,16,7],12));
+  console.log(app([1,9,5,0,20,-4,12,16,7],0));
